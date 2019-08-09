@@ -1,0 +1,11 @@
+.bg-gradient{
+  background-image: linear-gradient(rgb(30, 30, 200), rgb(10, 10, 100), rgb(0, 0, 10));
+}
+
+.nav a{
+  color: white;
+}
+
+a:hover{
+  color: rgb(200, 200, 200);
+}
