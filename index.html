@@ -12,34 +12,35 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-dark">
+<body id="top" class="bg-dark">
   <div class="container-fluid text-light">
-    <div class="row">
+    <div class="row sticky-top">
       <div class="col-12">
         <div class="container-fluid">
-          <dl class="nav bg-secondary p-3 sticky-top">
+          <dl class="nav bg-secondary p-3">
             <dt class="col-md-7 col-12 offset-md-1">
               <h2>Braden Dykstra</h2>
             </dt>
             <dd class="nav-item">
-              <a href="#" class="nav-link active">About Me</a>
+              <a href="#top" class="nav-link active">About Me</a>
             </dd>
             <dd class="nav-item">
-              <a href="#" class="nav-link active">Projects</a>
+              <a href="#about" class="nav-link active">Projects</a>
             </dd>
             <dd class="nav-item">
-              <a href="#" class="nav-link active">This</a>
+              <a href="#projects" class="nav-link active">This</a>
             </dd>
             <dd class="nav-item">
-              <a href="#" class="nav-link active">That</a>
+              <a href="#this" class="nav-link active">Contact</a>
             </dd>
           </dl>
         </div>
       </div>
     </div>
-    <div id="about" class="row p-5 text-light">
+    <div class="row p-5 text-light">
       <div class="col-2 offset-md-2">
-        <h4>About Me</h4>
+        <h4 id="about">About Me</h4>
+        <i class="fas fa-user fa-2x"></i>
       </div>
       <div class="col-7 offset-3 offset-md-1">
         <p>I'm a person. I do things. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ab id ullam
@@ -47,7 +48,7 @@
           officia aut debitis ut.</p>
       </div>
     </div>
-    <div class="row p-5 bg-blue">
+    <div id="projects" class="row p-5 bg-blue">
       <div class="col-2 offset-md-2">
         <h4>Projects</h4>
         <i class="fas fa-dice-d6 fa-2x"></i>
@@ -58,9 +59,10 @@
           doloribus quibusdam?</p>
       </div>
     </div>
-    <div class="row p-5">
+    <div id="this" class="row p-5">
       <div class="col-2 offset-md-2">
         <h4>This</h4>
+        <i class="fas fa-jedi fa-2x"></i>
       </div>
       <div class="col-7 offset-3 offset-md-1">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi laborum architecto asperiores quod maiores
@@ -70,9 +72,10 @@
           officia aut debitis ut.</p>
       </div>
     </div>
-    <div class="row p-5 bg-secondary">
+    <div id="contact" class="row p-5 bg-secondary">
       <div class="col-2 offset-md-2">
-        <h4>That</h4>
+        <h4>Contact</h4>
+        <i class="fas fa-address-card fa-2x"></i>
       </div>
       <div class="col-7 offset-3 offset-md-1">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam at, consectetur fugiat vel dolore error,
@@ -89,6 +92,12 @@
           Voluptate at animi expedita.</p>
       </div>
     </div>
+    <div class="row p-5"></div>
+    <div class="row p-5"></div>
+    <div class="row p-5"></div>
+    <div class="row p-5"></div>
+    <div class="row p-5"></div>
+    <div class="row p-5"></div>
   </div>
 </body>
 

@@ -8,6 +8,8 @@ a:hover{
 
 .nav{
   border-radius: 15px;
+  border: 2px rgb(52, 58, 64) solid;
+  box-shadow: 2px 2px 50px rgb(42, 48, 54);
 }
 
 .bg-blue{
